@@ -32,11 +32,10 @@ npm install
 
 ```bash
 npm run dev
-```
 
 Visit https://localhost:PORT to see it in action.
+```
 
-```markdown
 ## ✨ Features
 
 - Search events instantly with Algolia
@@ -72,5 +71,3 @@ Built with passion and perseverance. 🕊️
 ## 📫 Contact
 Want to connect or collaborate?
 Open an issue or drop a message in the discussions tab.
-
----
