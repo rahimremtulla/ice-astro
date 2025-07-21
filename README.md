@@ -22,8 +22,55 @@ A fast, modern, and dynamic frontend experience for showcasing events with light
 git clone https://github.com/rahimremtulla/ice-astro.git
 cd ice-astro
 npm install
+```
 
+## 🔧 Usage
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+- Create a .env file based on .env.example
+- Add your credentials (Storyblok token, Algolia keys, etc.)
+- Run locally:
+
+```bash
+npm run dev
+```
+
+Visit https://localhost:PORT to see it in action.
+
+```markdown
+## ✨ Features
+
+- Search events instantly with Algolia
+- Manage content dynamically via Storyblok
+- Responsive and sleek design with Tailwind
+- Built using Astro’s component islands architecture
+
+## 📁 Folder Structure
+
+ice-astro/
+├── public/
+├── src/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── styles/
+├── .astro/
+├── .env.example
+├── package.json
+
+## 🌍 Deployment
+
+You can deploy easily using platforms like Vercel or Netlify.
+
+## 📜 License
+
+MIT — feel free to use, adapt, and build on it!
+
+## 🙏 Credit
+
+Built with passion and perseverance. 🕊️
+
+## 📫 Contact
+Want to connect or collaborate?
+Open an issue or drop a message in the discussions tab.
+
+---
