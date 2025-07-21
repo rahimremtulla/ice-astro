@@ -1,0 +1,30 @@
+/* //src/styles/calendar.css */
+
+.rdrCalendarWrapper {
+    font-family: 'Noto Sans', serif;
+}
+
+.rdrDateDisplayItem {
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: calc(infinity * 1px);
+}
+
+.rdrDateDisplayItemActive input,
+.rdrDateDisplayItem input {
+    color: #000;
+}
+
+.rdrNextPrevButton,
+.rdrNextNextButton {
+    border-radius: calc(infinity * 1px);
+}
+
+.rdrMonthAndYearPickers select {
+    background-color: white !important;
+    color: #1f2937 !important;
+    border: 1px solid #d1d5db;
+    border-radius: calc(infinity * 1px);
+    font-size: 0.875rem;
+    padding: 5px 25px 5px 10px;
+}

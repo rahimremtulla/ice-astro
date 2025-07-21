@@ -1,0 +1,75 @@
+---
+// index.astro
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome">
+	<section class="min-h-screen flex flex-col items-center justify-center bg-background text-foreground px-4">
+		<div class="bg-surface p-8 rounded-lg shadow-xl max-w-xl w-full text-center space-y-4">
+			<h1 class="text-3xl md:text-4xl font-bold">ICE Events</h1>
+			<p class="text-sm text-muted">
+				This demo showcases a lightweight event listing experience built with Storyblok for content management, Algolia for lightning-fast search, Astro for blazing performance, and Tailwind CSS for sleek styling.
+			</p>
+            <p class="text-sm text-muted">
+                Click below to explore how these modern tools come together to power intuitive and dynamic user experiences.
+            </p>
+			<a
+				href="./events"
+				class="mt-6 inline-block bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 transition">
+				Events demo
+			</a>
+		</div>
+		<div class="max-w-3xl w-full mx-auto mt-12">
+			<table class="w-full table-auto border border-gray-200 rounded-lg overflow-hidden text-sm">
+				<thead class="bg-gray-100 text-left text-gray-600">
+                    <tr>
+                        <th class="px-4 py-3 border-b border-gray-300">Technology</th>
+                        <th class="px-4 py-3 border-b border-gray-300">Purpose</th>
+                    </tr>
+				</thead>
+				<tbody class="divide-y divide-gray-200">
+                    <tr class="hover:bg-gray-50 transition">
+                        <td class="px-4 py-3 font-medium text-sky-700">
+                            <a href="https://www.storyblok.com" target="_blank" class="hover:underline">Storyblok</a>
+                        </td>
+                        <td class="px-4 py-3 text-gray-700">
+                            Serves as the headless CMS, enabling real-time content management for events
+                        </td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition">
+                        <td class="px-4 py-3 font-medium text-sky-700">
+                            <a href="https://astro.build" target="_blank" class="hover:underline">Astro</a>
+                        </td>
+                        <td class="px-4 py-3 text-gray-700">
+                            Handles routing, layout structure, and partial hydration for optimised performance
+                        </td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition">
+                        <td class="px-4 py-3 font-medium text-sky-700">
+                            <a href="https://www.algolia.com/" target="_blank" class="hover:underline">Algolia</a>
+                        </td>
+                    <td class="px-4 py-3 text-gray-700">
+                        Enables fast, reactive filtering of event data using prebuilt search widgets with minimal configuration
+                    </td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition">
+                        <td class="px-4 py-3 font-medium text-sky-700">
+                            <a href="https://react.dev" target="_blank" class="hover:underline">React</a>
+                        </td>
+                        <td class="px-4 py-3 text-gray-700">
+                            Manages interactivity, stateful UI components, and dynamic event filtering
+                        </td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition">
+                        <td class="px-4 py-3 font-medium text-sky-700">
+                            <a href="https://tailwindcss.com" target="_blank" class="hover:underline">Tailwind</a>
+                        </td>
+                        <td class="px-4 py-3 text-gray-700">
+                            Provides utility-first CSS styling for rapid, responsive UI development
+                        </td>
+                    </tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</Layout>

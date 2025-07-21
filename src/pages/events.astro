@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import EventSearchWrapper from "../components/events/EventSearchWrapper";
+---
+
+<Layout title="Upcoming events">
+    <h1 class="text-3xl font-bold">Upcoming Events</h1>
+    <p class="text-gray-600 mb-7">Browse and filter engineering events from around the world.</p>
+    <EventSearchWrapper client:load>
+    </EventSearchWrapper>
+</Layout>

@@ -1,0 +1,26 @@
+/* styles/skeleton.css */
+
+.skeleton {
+    position: relative;
+    background-color: #e5e7eb; /* Tailwind's gray-200 */
+    overflow: hidden;
+}
+
+/* Shimmer effect */
+.skeleton::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.35), transparent);
+    width: 200%;
+    height: 100%;
+    animation: shimmer 1s infinite;
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
